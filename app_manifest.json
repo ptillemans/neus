@@ -1,0 +1,43 @@
+{
+  "SchemaVersion": 1,
+  "Name": "AvnetStarterKit-Hackster.io-V2.0",
+  "ComponentId": "685f13af-25a5-40b2-8dd8-8cbc253ecbd8",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": ["0ne000FC016"],
+  "Capabilities": {
+    "AllowedConnections": [
+      "global.azure-devices-provisioning.net", 
+      "snamellit-de-neus.azureiotcentral.com",
+      "iotc-50be1c3a-de56-42c0-9de0-0fb1bd6aa7bd.azure-devices.net",
+      "iotc-d2005262-cbeb-4077-bed6-042d64a792af.azure-devices.net",
+      "iotc-28df8bd9-9d9a-4ae4-b724-9b24be5fd7f8.azure-devices.net",
+      "iotc-d453c760-3371-47cd-963f-c652461142fa.azure-devices.net",
+      "iotc-d2a1e1b0-8e83-4734-985d-3fb1ad0d359c.azure-devices.net",
+      "iotc-bba384c1-ed66-4c1d-ae82-0277ec608e93.azure-devices.net",
+      "iotc-ade20026-d024-4a9d-b68e-3f7e76d1e32e.azure-devices.net",
+      "iotc-a15c81c0-a53d-4ecf-9a10-4f47747b3b25.azure-devices.net",
+      "iotc-425acdaf-5ce8-45ea-98f2-131f1253d147.azure-devices.net",
+      "iotc-2dd17f8a-4fcb-4b35-a29a-0862670b79e0.azure-devices.net"
+    ],
+    "AllowedTcpServerPorts": [],
+    "AllowedUdpServerPorts": [],
+    "Gpio": [
+      "$AVNET_MT3620_SK_GPIO0",
+      "$AVNET_MT3620_SK_WLAN_STATUS_LED_YELLOW",
+      "$AVNET_MT3620_SK_USER_LED_RED",
+      "$AVNET_MT3620_SK_USER_LED_GREEN",
+      "$AVNET_MT3620_SK_USER_LED_BLUE",
+      "$AVNET_MT3620_SK_USER_BUTTON_A",
+      "$AVNET_MT3620_SK_USER_BUTTON_B",
+      "$AVNET_MT3620_SK_GPIO34"
+    ],
+    "Uart": [],
+    "I2cMaster": [ "$AVNET_MT3620_SK_ISU2_I2C" ],
+    "SpiMaster": [],
+    "WifiConfig": true,
+    "NetworkConfig": false,
+    "SystemTime": false,
+    "DeviceAuthentication": "d0e9d07b-faaf-4d26-8d2d-f8d344e4fc4b"
+  },
+  "ApplicationType": "Default"
+}
